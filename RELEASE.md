@@ -1,5 +1,6 @@
-How to make a release
-=====================
+# How to make a release
+
+## Release to Maven Central
 
 * Run the following command to deploy the artifact:
 
@@ -8,3 +9,8 @@ How to make a release
   ```
 
 * Push all changes
+
+## Github
+
+* add `-spring-boot.jar` to release
+ 
