@@ -1,8 +1,8 @@
 # java-class-version
 Library for listing version of Java class files.
 
-Collects the Java versions stored in class files and outputs it in
-various formats: text, CSV or summary (counts per version).
+Collects the [Java versions](https://en.wikipedia.org/wiki/Java_class_file#General_layout) 
+stored in class files and outputs it in various formats: text, CSV or summary (counts per version).
 
 
 ## Command-line
