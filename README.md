@@ -1,7 +1,7 @@
 # java-class-version
 Library for listing version of Java class files.
 
-## Parameters
+## Command-line
 
 ```
 usage: com.github.fracpete.javaclassversion.ListClasses
@@ -17,4 +17,15 @@ named arguments:
                          The output format to use
   --output OUTPUT        The file to write the generated output to
   --verbose              Whether to be verbose during generation
+```
+
+## Maven
+
+Add the following dependency to your `pom.xml`:
+```xml
+    <dependency>
+      <groupId>com.github.fracpete</groupId>
+      <artifactId>java-class-version</artifactId>
+      <version>0.0.1</version>
+    </dependency>
 ```
