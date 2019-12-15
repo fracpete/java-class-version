@@ -1,6 +1,10 @@
 # java-class-version
 Library for listing version of Java class files.
 
+Collects the Java versions stored in class files and outputs it in
+various formats: text, CSV or summary (counts per version).
+
+
 ## Command-line
 
 ```
@@ -18,6 +22,7 @@ named arguments:
   --output OUTPUT        The file to write the generated output to
   --verbose              Whether to be verbose during generation
 ```
+
 
 ## Maven
 
